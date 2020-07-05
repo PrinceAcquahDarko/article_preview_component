@@ -1,0 +1,81 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	width: 100%;
+	background: hsl(212, 23%, 69%);
+	font-size: 14px;
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+header img{
+	width: 100%;
+	
+	
+}
+
+.imag{
+	margin-top: 4em;
+	margin-bottom: 0;
+	background: hsl(210, 46%, 95%);
+}
+
+
+main{
+	margin-top: 0;
+	background: hsl(210, 46%, 95%);
+}
+
+article{
+	padding: 0 2em;
+	text-align: justify;
+}
+article header h1{
+	font-family: 'Manrope', sans-serif;
+	padding: 2em 0 1em 0;
+}
+
+article div p{
+	font-family: 'Manrope', sans-serif;
+	padding-bottom: 2em;
+}
+
+footer{
+	background: hsl(210, 46%, 95%);
+	text-align: justify;
+	padding-bottom: 2em;
+}
+
+.michelle{
+	border-radius: 50%;
+}
+
+.about{
+	display: block;
+	margin-top: 2em;
+
+}
+
+.icons{
+	display: none;
+}
+
+
+.michelle{
+	width: 20%;
+}
+
+.pinterest{
+	background: hsl(217, 19%, 35%);
+	width: 5%;
+}
+
+footer div{
+	display: flex;
+	justify-content: space-around;
+}
