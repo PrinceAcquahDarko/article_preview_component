@@ -150,13 +150,13 @@ footer div{
 }
 
 
-@media (min-width: 950px){
+@media (min-width: 990px){
 	.container{
 		font-size: 12px;
 	}
 }
 
-@media (min-width: 1050px){
+@media (min-width: 1150px){
 	.container{
 		font-size: 14px;
 	}
