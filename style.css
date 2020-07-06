@@ -68,7 +68,7 @@ footer{
 
 
 .michelle{
-	width: 20%;
+	width: 10%;
 }
 
 .pinterest{
@@ -79,10 +79,26 @@ footer{
 footer div{
 	display: flex;
 	justify-content: space-around;
+
+}
+
+.right{
+	margin-bottom: 4em;
+	
+}
+.relative{
+	position: relative;
+}
+.ico{
+	position: absolute;
+	right:15px;
+	top:-50px;
+
+
 }
 
 
-.justify{
+.justify {
 		display: flex;
 		flex-direction: row;
 		
@@ -90,14 +106,16 @@ footer div{
 		height: 30%;
 
 
+
 	}
 
-/*.justify span{
+.justify span{
 	
-		margin-right: 1em; 
-		margin-left: 1em;
-		text-align: center;
-}*/
+		padding-right: 2em;
+		padding-top: 1em;
+		padding-bottom: 1em;
+
+}
 
 
 @media(min-width: 660px){
@@ -114,6 +132,7 @@ footer div{
 		
 		
 	}
+
 
 	.right{
 		float:right;
@@ -140,6 +159,31 @@ footer div{
 		border-radius: 15px 0 0 15px;
 
 		
+	}
+	.ico{
+		position: absolute;
+		right:15px;
+		top:-20px;
+
+
+	}
+
+
+	.justify {
+			display: flex;
+			flex-direction: row;
+			
+			background: hsl(217, 19%, 35%);
+			height: 30%;
+
+
+		}
+
+	.justify span{
+		
+			padding-right: 2em;
+			padding-top: 1em;
+			padding-bottom: 1em;
 	}
 
 	.area{
@@ -170,6 +214,10 @@ footer div{
 	}
 	.about .michelle{
 		float:left;
+	}
+
+	.michelle{
+		width: 20%;
 	}
 
 
