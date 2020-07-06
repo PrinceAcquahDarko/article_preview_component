@@ -63,6 +63,7 @@ footer{
 
 .icons{
 	display: none;
+
 }
 
 
@@ -81,6 +82,23 @@ footer div{
 }
 
 
+.justify{
+		display: flex;
+		flex-direction: row;
+		
+		background: hsl(217, 19%, 35%);
+		height: 30%;
+
+
+	}
+
+/*.justify span{
+	
+		margin-right: 1em; 
+		margin-left: 1em;
+		text-align: center;
+}*/
+
 
 @media(min-width: 660px){
 	.container{
@@ -96,6 +114,14 @@ footer div{
 		
 		
 	}
+
+	.right{
+		float:right;
+		margin-top: 2em;
+		
+	}
+
+
 
 	.imag{
 		width: 40%;
@@ -124,6 +150,9 @@ footer div{
 
 		
 	}
+	.about{
+		margin-top: 2em;
+	}
 
 	main{
 		height: 60%;
@@ -142,11 +171,10 @@ footer div{
 	.about .michelle{
 		float:left;
 	}
+
+
 	
-	.right{
-		float:right;
-		
-	}
+	
 }
 
 
